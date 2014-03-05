@@ -1,0 +1,21 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
+
+group = 'zingaya.chess'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.typesafe.akka:akka-actor_2.10:2.3.0"
+}
+
+apply plugin: 'application'
+mainClassName = 'zingaya.chess.Main'
