@@ -5,7 +5,6 @@ import akka.actor.Props;
 import akka.actor.UntypedActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
-import com.google.common.primitives.Ints;
 import zingaya.chess.matan.HorzVector;
 import zingaya.chess.matan.Pos;
 import zingaya.chess.matan.Vector;
